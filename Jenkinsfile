@@ -21,6 +21,7 @@ pipeline{
 					sh "rm -rf index.html"
 				}
 				sh "cp /mnt/projects/project-1/index.html /var/www/html"
+				sh "chmod -R 777 /var"
 			}
 		}
 	}	
